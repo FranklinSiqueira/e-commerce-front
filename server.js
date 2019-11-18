@@ -21,7 +21,7 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`App is running on port ${PORT}`);
 });
-// Code nginx sites configuration
+// Code nginx sites configuration to be replace 'location' at default file
 // location /api {
 //     proxy_pass http://localhost:8000;
 //     proxy_http_version 1.1;
